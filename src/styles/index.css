@@ -1,0 +1,38 @@
+/* BANNER */
+.banner {
+  width: 100%;
+  height: 80vh;
+  padding: 0px 60px;
+  background-color: var(--opacity);
+}
+
+.banner_text {
+  width: 50%;
+  height: 100%;
+}
+
+.banner_text h1 {
+  font-size: var(--title);
+  color: var(--black);
+}
+
+.banner_text #colored {
+  color: var(--primary);
+}
+
+.banner_text h3 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.banner_text a {
+  padding: 12px 20px;
+  margin-top: 30px;
+  border-radius: 6px;
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.banner_img {
+  width: 38%;
+}

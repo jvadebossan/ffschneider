@@ -1,0 +1,75 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", serif;
+
+  /* COLORS */
+  --primary: #00A4B8;
+  --secondary: #045B6B;
+  --black: #000000;
+  --gray: #4A4A4A;
+  --white: #FFFFFF;
+  /* BACKGROUND */
+  --background: #FBFBFB;
+  /* FONT-SIZE */
+  --title: 64px;
+  --subtitle: 24px;
+  --text: 18px;
+}
+
+/* CSS RESET */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* FLEX CLASSES */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jcenter {
+  justify-content: center;
+}
+
+.jstart {
+  justify-content: flex-start;
+}
+
+.jend {
+  justify-content: flex-end;
+}
+
+.jbetween {
+  justify-content: space-between;
+}
+
+.jaround {
+  justify-content: space-around;
+}
+
+.acenter {
+  align-items: center;
+}
+
+.astart {
+  align-items: flex-start;
+}
+
+.aend {
+  align-items: flex-end;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 20vh;
+  padding: 20px 100px;
+}

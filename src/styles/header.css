@@ -47,7 +47,7 @@ header nav ul li a {
   padding: 12px 20px;
   margin-left: 5px;
   border-radius: 6px;
-  transition: 0.2s ease-in;
+  transition: 0.1s ease-in;
 }
 
 #btn-contact {
@@ -78,7 +78,7 @@ header nav ul li .dropdown li a {
   font-size: var(--small);
   color: var(--white);
   display: block;
-  transition: 0.2s ease-in;
+  transition: 0.1s ease-in;
   white-space: nowrap;
   margin: 0px;
 }

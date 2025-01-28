@@ -9,6 +9,7 @@
       href="./src/imgs/logo_felipe.png"
       type="image/x-icon"
     />
+
     <!-- Modules/Libs -->
     <script
       type="module"
@@ -24,6 +25,23 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Slick Carousel CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+
+    <!-- jQuery and Slick Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="./src/styles/default.css" />
     <link rel="stylesheet" href="./src/styles/index.css" />
@@ -47,16 +65,16 @@
             </a>
             <ul class="dropdown">
               <li>
-                <a href="#">Test Project 1</a>
+                <a href="#">Chronic wound care</a>
               </li>
               <li>
-                <a href="#">Test Project 1</a>
+                <a href="#">Cough-Assist</a>
               </li>
               <li>
-                <a href="#">Test Project 1</a>
+                <a href="#">Veterinary Ventilator</a>
               </li>
               <li>
-                <a href="#">Test Project 1</a>
+                <a href="#">Class II ventilator</a>
               </li>
             </ul>
           </li>
@@ -71,7 +89,7 @@
       <section class="banner row aend jbetween">
         <div class="banner_text column jcenter astart">
           <h1>Felipe</h1>
-          <h1 id="colored">Schneider</h1>
+          <h1 class="colored">Schneider</h1>
           <h3>
             8+ years of experience in developing hardware and firmware for
             electromedical equipment, skilled MSc Electrical Engineer who leads
@@ -90,7 +108,7 @@
       <section class="skills">
         <div class="skill_container row jcenter astart">
           <!-- SKILL CARD BEGINNING -->
-          <div class="skill_card column jstart acenter">
+          <div class="skill_card column jaround acenter">
             <img
               src="/src/imgs/icon_fp_01.png"
               alt="Development of medical devices"
@@ -113,7 +131,7 @@
           </div>
           <!-- SKILL CARD END -->
 
-          <div class="skill_card column jstart acenter">
+          <div class="skill_card column jaround acenter">
             <img
               src="/src/imgs/icon_fp_02.png"
               alt="Electrical safety and EMC compliance"
@@ -134,7 +152,7 @@
             </p>
           </div>
 
-          <div class="skill_card column jstart acenter">
+          <div class="skill_card column jaround acenter">
             <img
               src="/src/imgs/icon_fp_03.png"
               alt="Device and process documentation"
@@ -157,7 +175,7 @@
             </p>
           </div>
 
-          <div class="skill_card column jstart acenter">
+          <div class="skill_card column jaround acenter">
             <img
               src="/src/imgs/icon_fp_04.png"
               alt="Cost-effective ISO and IEC labs"
@@ -178,7 +196,7 @@
             </p>
           </div>
 
-          <div class="skill_card column jstart acenter">
+          <div class="skill_card column jaround acenter">
             <img
               src="/src/imgs/icon_fp_05.png"
               alt="Key turn prototype and more"
@@ -198,6 +216,85 @@
           </div>
         </div>
       </section>
+
+      <!-- PROJECTS CAROUSEL -->
+      <section class="projects column acenter jstart">
+        <h1 class="projects_title colored">Projects</h1>
+        <h3 class="projects_desc">That I have worked on</h3>
+        <div class="projects_c_container row jcenter acenter">
+          <!-- PROJECT CARD BEGINNING -->
+          <div class="project_c_card column jaround acenter">
+            <img
+              src="./src/imgs/project_01/img_01.png"
+              alt="Chronic wound care therapy Device"
+              class="project_c_img"
+            />
+            <p class="project_c_title">Chronic wound care therapy Device</p>
+            <p class="project_c_desc">
+              The device introduces a novel approach to chronic wound treatment,
+              utilizing non-coherent light therapy and advanced camera systems
+              to enhance operator precision and ensure patient safety.
+            </p>
+            <a href="#" class="project_view_more">View More</a>
+          </div>
+          <!-- PROJECT CARD END -->
+
+          <div class="project_c_card column jaround acenter">
+            <img
+              src="./src/imgs/project_02/img_01.png"
+              alt="Mechanical insufflation-exsufflation device
+              "
+              class="project_c_img"
+            />
+            <p class="project_c_title">
+              Mechanical insufflation-exsufflation device
+            </p>
+            <p class="project_c_desc">
+              Developed between 2016 and 2018, this project aimed to provide a
+              cost-effective, locally-produced cough assist machine for the
+              Brazilian market.
+            </p>
+            <a href="#" class="project_view_more">View More</a>
+          </div>
+
+          <div class="project_c_card column jaround acenter">
+            <img
+              src="./src/imgs/project_03/img_01.png"
+              alt="Veterinary ventilator and anesthesia machine"
+              class="project_c_img"
+            />
+            <p class="project_c_title">
+              Veterinary ventilator and anesthesia machine
+            </p>
+            <p class="project_c_desc">
+              My team and I identified an unmet need in the veterinary market
+              and developed a ventilator catering to patients ranging from 500g
+              to 100kg. This ventilator was designed not only to support
+              critically ill animals who could not breathe independently but
+              also to function as an anesthesia machine during surgeries.
+            </p>
+            <a href="#" class="project_view_more">View More</a>
+          </div>
+
+          <div class="project_c_card column jaround acenter">
+            <img
+              src="./src/imgs/project_04/img_01.jpg"
+              alt="Class II mechanical ventilator"
+              class="project_c_img"
+            />
+            <p class="project_c_title">Class II mechanical ventilator</p>
+            <p class="project_c_desc">
+              Anticipating a ventilator shortage in Europe during COVID-19, my
+              team adapted a 2018 veterinary ventilator for human use. Despite
+              resource and supply challenges, we registered it with Anvisa for
+              non-life-support use within five months, with plans to produce up
+              to 3,000 units monthly at the crisis's peak.
+            </p>
+            <a href="#" class="project_view_more">View More</a>
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="./src/scripts/carousel.js"></script>
   </body>
 </html>

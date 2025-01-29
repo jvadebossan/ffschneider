@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".projects_c_container").slick({
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -10,7 +10,7 @@ $(document).ready(function () {
     autoplaySpeed: 2000,
     draggable: true,
     centerMode: true,
-    centerPadding: "20px",
+    centerPadding: "30px",
     responsive: [
       {
         breakpoint: 500,

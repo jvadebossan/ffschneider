@@ -129,12 +129,6 @@
   border-radius: 9px;
 }
 
-.slick-slide {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
 .project_c_img {
   width: 50%;
 }
@@ -150,4 +144,40 @@
 
 .project_view_more:hover {
   transform: scale(1.05);
+}
+
+/* SLICK CAROUSEL CUSTOMIZATION */
+.slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-dots {
+  bottom: -60px;
+}
+
+.slick-arrow {
+  transform: scale(1.5);
+}
+
+.slick-arrow::before {
+  color: var(--primary) !important;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-slide {
+  transform: scale(0.85);
+  transition: 0.1s ease-in;
+}
+
+.slick-current {
+  transform: scale(1);
 }

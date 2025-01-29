@@ -1,3 +1,4 @@
+/* HEADER */
 header {
   width: 100%;
   height: 80px;
@@ -94,4 +95,21 @@ header nav ul li .dropdown li a:hover {
 
 #chevron-down {
   padding-left: 5px;
+}
+
+
+
+/* FOOTER */
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 22vh;
+  margin-top: 120px;
+  background-color: var(--secondary);
+  color: var(--white);
+  text-align: center;
+}
+
+footer .social_icon{
+  color: var(--white);
 }

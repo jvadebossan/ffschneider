@@ -193,7 +193,7 @@
   list-style: none;
 }
 
-.socials li a ion-icon {
+.social_icon{
   font-size: 40px;
   padding: 0px 20px;
   color: rgba(0, 0, 0, 0.5);

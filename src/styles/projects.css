@@ -1,3 +1,29 @@
+/* REUSABLE */
+.divider {
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  background-color: var(--secondary);
+}
+
+.divider p {
+  font-size: calc(var(--subtitle) - 4px);
+  font-weight: 500;
+  color: var(--white);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse > .project_img {
+  justify-content: flex-end !important;
+}
+
+.colored_bg {
+  background-color: #e7f5fd !important;
+}
+
 /* MAIN PROJECTS PAGE */
 .banner {
   width: 100%;
@@ -17,24 +43,13 @@
   height: auto;
 }
 
+/* PROJECT CARDS HORIZONTAL */
 .project {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   min-height: 400px;
-  background-color: #e0eff1;
+  background-color: var(--white);
   padding: 0px 200px;
-}
-
-.reverse {
-  flex-direction: row-reverse;
-}
-
-.reverse > .project_img {
-  justify-content: flex-end !important;
-}
-
-.project_white {
-  background-color: var(--white) !important;
 }
 
 .project_img {
@@ -65,4 +80,42 @@
 
 .project_desc a {
   text-decoration: underline;
+}
+
+/* PROJECT CARDS VERTICAL */
+
+.projects_vertical {
+  gap: 4%;
+  padding: 0px 200px;
+  flex-wrap: wrap;
+}
+
+.p_vertical {
+  width: 35vw !important;
+  height: auto;
+  padding: 0px 0px !important;
+}
+
+.p_vertical {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.p_vertical .project_text {
+  align-items: center;
+}
+
+.p_vertical .project_img {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.p_vertical .project_img img {
+  width: 100%;
+}
+
+.p_vertical .project_text .project_desc {
+  margin-bottom: 3%;
+  text-align: center;
 }

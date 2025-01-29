@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FF Schneider</title>
+    <link
+      rel="shortcut icon"
+      href="./src/imgs/logo_felipe.png"
+      type="image/x-icon"
+    />
+
+    <!-- Modules/Libs -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/default.css" />
+    <link rel="stylesheet" href="./src/styles/header.css" />
+    <link rel="stylesheet" href="./src/styles/projects.css" />
+  </head>
+  <body>
+    <header class="row jbetween acenter">
+      <a href="#" class="logo_area row jstart acenter">
+        <img src="./src/imgs/logo_felipe.png" alt="Logo" class="logo" />
+        <p class="logo_name">FF Schneider</p>
+      </a>
+      <nav class="row jend acenter">
+        <ul class="row acenter">
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./projects.html" class="row acenter"
+              >Projects
+              <ion-icon name="chevron-down" id="chevron-down"></ion-icon>
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="#">Chronic wound care</a>
+              </li>
+              <li>
+                <a href="#">Cough-Assist</a>
+              </li>
+              <li>
+                <a href="#">Veterinary Ventilator</a>
+              </li>
+              <li>
+                <a href="#">Class II ventilator</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" id="btn-contact">Get in touch</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="column jcenter astart">
+      <section class="banner row jcenter acenter">
+        <p class="projects_title">
+          Projects that I have led or intensively worked on
+        </p>
+      </section>
+      <section class="projects column jcenter astart">
+        <!-- PROJECT CARD BEGINNING -->
+        <div class="project row jbetween acenter">
+          <div class="project_img row jstart astart">
+            <img
+              src="./src/imgs/project_01/img_01.png"
+              alt="Chronic wound care therapy device"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">Chronic wound care therapy device</p>
+            <p class="project_desc">
+              This revolutionary Class II medical device, FDA-approved under
+              <a
+                href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233077"
+                target="_blank"
+                >K233077</a
+              >, was developed by a multinational team of 10 engineers and
+              medical advisors under my leadership.
+            </p>
+            <p class="project_desc">
+              The device employs a groundbreaking approach to chronic wound
+              treatment, combining non-coherent light therapy with advanced
+              camera systems to assist operators and ensure patient safety.
+            </p>
+            <p class="project_desc">
+              This complex system integrates multiple custom and OTS PCBs,
+              supports a variety of communication protocols and programming
+              languages, and features an intuitive user interface designed for
+              seamless operation. Led it from the start to the production.
+            </p>
+          </div>
+        </div>
+        <!-- PROJECT CARD END -->
+
+        <div class="project project_white reverse row jbetween acenter">
+          <div class="project_img row jstart astart">
+            <img
+              src="./src/imgs/project_02/img_01.png"
+              alt="Mechanical insufflation-exsufflation device"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">
+              Mechanical insufflation-exsufflation device
+            </p>
+            <p class="project_desc">
+              Developed under tight financial and supplier constraints, this
+              mechanical insufflation-exsufflation device (commonly known as a
+              cough assist) outperforms competitors like the Philips
+              <a
+                href="https://ca.healthcare.airliquide.com/solutions/equipment/respiratory-equipment/airway-management/coughassist-t70"
+                target="_blank"
+                >Philips E70/T70</a
+              >.
+            </p>
+            <p class="project_desc">
+              Optimized to its core, just as an example, the device runs its
+              GUI, control and sensing loops, machine states, and other critical
+              functions on a simple 8-bit microcontroller.
+            </p>
+            <p class="project_desc">
+              This was the first approved medical device where I had a critical
+              impact—a project that marked the beginning of my journey, taught
+              me invaluable lessons, and still inspires ideas for improvement. I
+              am feeling nostalgic now...
+            </p>
+          </div>
+        </div>
+
+        <div class="project row jbetween acenter">
+          <div class="project_img row jstart astart">
+            <img
+              src="./src/imgs/project_03/img_01.png"
+              alt="Veterinary ventilator and anesthesia machine"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">
+              Veterinary ventilator and anesthesia machine
+            </p>
+            <p class="project_desc">
+              Prior to the development of this device, the Brazilian veterinary
+              market faced a significant gap: the lack of a cost-effective,
+              purpose-built solution tailored specifically for veterinarians
+              that needed a portable anesthesia and ventilatory device.
+            </p>
+            <p class="project_desc">
+              This project introduced me to new areas such as customer-centric
+              design, user interviews, field performance evaluations (that's me
+              in the picture), and direct collaboration with the client.
+            </p>
+            <p class="project_desc">
+              The result was a functional, user-friendly device that remains
+              affordable for the majority of veterinarians, addressing a
+              critical need in the market.
+            </p>
+          </div>
+        </div>
+
+        <div class="project project_white reverse row jbetween acenter">
+          <div class="project_img row jstart astart">
+            <img
+              src="./src/imgs/project_04/img_01.jpg"
+              alt="Class II mechanical ventilator"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">Class II mechanical ventilator</p>
+            <p class="project_desc">
+              Developed and certified during the critical days of the COVID
+              pandemic, this mechanical ventilator was designed for Brazilian
+              patients not fully dependent on mechanical ventilation for
+              survival.
+            </p>
+            <p class="project_desc">
+              Its development faced huge challenges, including shortages of raw
+              materials, electronic components, and specialized workforce. To
+              overcome these hurdles, our team partnered with Whirlpool
+              engineers, finding innovative solutions.
+            </p>
+            <p class="project_desc">
+              These hard times provided valuable lessons and strengthened my
+              ability to adapt and deliver under extreme conditions.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./src/scripts/carousel.js"></script>
+  </body>
+</html>

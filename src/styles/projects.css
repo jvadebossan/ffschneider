@@ -24,6 +24,14 @@
   background-color: #e7f5fd !important;
 }
 
+.full_img {
+  width: 100% !important;
+}
+
+.full_img img {
+  width: 80% !important;
+}
+
 /* MAIN PROJECTS PAGE */
 .banner {
   width: 100%;
@@ -32,7 +40,7 @@
 }
 
 .projects_title {
-  font-size: var(--subtitle);
+  font-size: calc(var(--subtitle) + 4px);
   font-weight: 500;
   color: var(--white);
   padding-bottom: 1%;
@@ -71,9 +79,11 @@
   font-weight: 600;
   text-align: center;
   padding-bottom: 4%;
+  text-align: left;
 }
 
 .project_desc {
+  text-align: left;
   text-align: justify;
   margin-bottom: 30px;
 }
@@ -120,6 +130,10 @@
   text-align: center;
 }
 
-
-
 /* PROJECTS INDIVUDAL PAGES */
+.project_text ul {
+  margin-left: 18px;
+}
+.project_text ul li {
+  margin: 10px 0px;
+}

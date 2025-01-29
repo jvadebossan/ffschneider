@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FF Schneider</title>
+    <link
+      rel="shortcut icon"
+      href="../src/imgs/logo_felipe.png"
+      type="image/x-icon"
+    />
+
+    <!-- Modules/Libs -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/styles/default.css" />
+    <link rel="stylesheet" href="../src/styles/header_footer.css" />
+    <link rel="stylesheet" href="../src/styles/projects.css" />
+  </head>
+  <body>
+    <header class="row jbetween acenter">
+      <a href="../index.html" class="logo_area row jstart acenter">
+        <img src="../src/imgs/logo_felipe.png" alt="Logo" class="logo" />
+        <p class="logo_name">FF Schneider</p>
+      </a>
+      <nav class="row jend acenter">
+        <ul class="row acenter">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./projects.html" class="row acenter"
+              >Projects
+              <ion-icon name="chevron-down" id="chevron-down"></ion-icon>
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="./chronic-wound-care.html">Chronic wound care</a>
+              </li>
+              <li>
+                <a href="./cough-assist.html">Cough-Assist</a>
+              </li>
+              <li>
+                <a href="./veterinary-ventilator.html">Veterinary Ventilator</a>
+              </li>
+              <li>
+                <a href="./class-II-ventilator.html">Class II ventilator</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://wa.me/5527999101403" id="btn-contact"
+              >Get in touch</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="column jcenter astart">
+      <section class="banner row jcenter acenter">
+        <p class="projects_title">Class II mechanical ventilator</p>
+      </section>
+
+      <!-- PROJECT LIST -->
+      <section class="projects column jcenter astart">
+        <!-- PROJECT CARD (HORIZONTAL) BEGINNING -->
+        <div class="project row jbetween acenter">
+          <div class="project_img full_img row jstart astart">
+            <img
+              src="../src/imgs/project_04/img_01.jpg"
+              alt="Basic Characteristics"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">Basic Characteristics</p>
+            <p class="project_desc">
+              Anticipating a ventilator shortage in Europe during COVID-19, my
+              team adapted a 2018 veterinary ventilator for human use. Despite
+              resource and supply challenges, we registered it with Anvisa for
+              non-life-support use within five months, with plans to produce up
+              to 3,000 units monthly at the crisis's peak.
+            </p>
+            <p class="project_desc">
+              Although large-scale production was not realized due to timing, we
+              continued improving the ventilator, integrating features like
+              cloud connectivity to transmit critical ventilator and patient
+              data. As a bonus, I gained valuable experience in how large-scale
+              companies organize their development, production, and quality
+              systems.
+            </p>
+          </div>
+        </div>
+        <!-- PROJECT CARD END -->
+
+        <div class="project reverse row jbetween acenter">
+          <div class="project_img full_img row jstart astart">
+            <img
+              src="../src/imgs/project_04/img_02.jpg"
+              alt="System Characteristics"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">System Characteristics</p>
+            <ul>
+              <li>
+                Compliant with IEC 60601-1, 60601-1-2, 60601-1-6, 60601-1-9, and
+                60601-1-11.
+              </li>
+              <li>Hard real-time system controlling a 50W BLDC motor.</li>
+              <li>
+                Hard real-time system with 50W BLDC motor control and
+                pressure/flow conversion.
+              </li>
+              <li>7" touchscreen interface with system redundancy.</li>
+              <li>Designed to handle critical part shortages.</li>
+              <li>Built with three four-layer PCBs.</li>
+              <li>
+                Features a 4-cell, 100W LiPo battery charger and 100W boost
+                converter.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project row jbetween acenter">
+          <div class="project_img full_img row jstart astart">
+            <img
+              src="../src/imgs/project_04/img_03.png"
+              alt="Areas that I had specifically worked on or led"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">
+              Areas that I had specifically worked on or led
+            </p>
+            <ul>
+              <li>Product Owner, leading embedded code development in C.</li>
+              <li>
+                Designed all three PCBs: main controller, BLDC controller, and
+                power conditioner.
+              </li>
+              <li>
+                Represented the company during certification testing and
+                production of the trial batch.
+              </li>
+              <li>
+                Contributed to software documentation, risk analysis, and IoT
+                cloud integration.
+              </li>
+              <li>Developed production and testing equipment designs.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="column jaround acenter">
+      <p>[ ffschneider.consultant@gmail.com] [ +55 27 99910-1403 ]</p>
+      <a
+        class="social_icon"
+        href="https://www.linkedin.com/in/felipe-bas/"
+        target="_blank"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+    </footer>
+    <script src="../src/scripts/carousel.js"></script>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FF Schneider</title>
+    <link
+      rel="shortcut icon"
+      href="../src/imgs/logo_felipe.png"
+      type="image/x-icon"
+    />
+
+    <!-- Modules/Libs -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/styles/default.css" />
+    <link rel="stylesheet" href="../src/styles/header_footer.css" />
+    <link rel="stylesheet" href="../src/styles/projects.css" />
+  </head>
+  <body>
+    <header class="row jbetween acenter">
+      <a href="../index.html" class="logo_area row jstart acenter">
+        <img src="../src/imgs/logo_felipe.png" alt="Logo" class="logo" />
+        <p class="logo_name">FF Schneider</p>
+      </a>
+      <nav class="row jend acenter">
+        <ul class="row acenter">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./projects.html" class="row acenter"
+              >Projects
+              <ion-icon name="chevron-down" id="chevron-down"></ion-icon>
+            </a>
+            <ul class="dropdown">
+              <li>
+                <a href="./chronic-wound-care.html">Chronic wound care</a>
+              </li>
+              <li>
+                <a href="./cough-assist.html">Cough-Assist</a>
+              </li>
+              <li>
+                <a href="./veterinary-ventilator.html">Veterinary Ventilator</a>
+              </li>
+              <li>
+                <a href="./class-II-ventilator.html">Class II ventilator</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://wa.me/5527999101403" id="btn-contact"
+              >Get in touch</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="column jcenter astart">
+      <section class="banner row jcenter acenter">
+        <p class="projects_title">
+          Veterinary ventilator and anesthesia machine
+        </p>
+      </section>
+
+      <!-- PROJECT LIST -->
+      <section class="projects column jcenter astart">
+        <!-- PROJECT CARD (HORIZONTAL) BEGINNING -->
+        <div class="project row jbetween acenter">
+          <div class="project_img full_img row jstart astart">
+            <img
+              src="../src/imgs/project_03/img_01.png"
+              alt="Basic Characteristics"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">Basic Characteristics</p>
+            <p class="project_desc">
+              My team and I identified an unmet need in the veterinary market
+              and developed a ventilator catering to patients ranging from 500g
+              to 100kg. This ventilator was designed not only to support
+              critically ill animals who could not breathe independently but
+              also to function as an anesthesia machine during surgeries.
+            </p>
+            <p class="project_desc">
+              A key focus was on creating a device with a clear, intuitive
+              interface, a simple circuit, and a compact, lightweight design for
+              easy transport in a veterinary setting.
+            </p>
+            <p class="project_desc">
+              The equipment was validated at one of Brazil's top universities,
+              and despite a brief development period and its innovative nature,
+              production commenced with minimal issues.
+            </p>
+          </div>
+        </div>
+        <!-- PROJECT CARD END -->
+
+        <div class="project reverse row jbetween acenter">
+          <div class="project_img full_img row jstart astart">
+            <img
+              src="../src/imgs/project_03/img_02.png"
+              alt="System Characteristics"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">System Characteristics</p>
+            <ul>
+              <li>Cost-effective and safety-focused design.</li>
+              <li>Hard real-time system controlling a 50W BLDC motor.</li>
+              <li>
+                Integrated pressure measurement and a 7" touchscreen display.
+              </li>
+              <li>Innovative UX/UI design for enhanced usability.</li>
+              <li>
+                Hardware includes one four-layer PCB and two two-layer PCBs.
+              </li>
+              <li>
+                4-cell, 100W LiPo battery charger and a 70W boost converter.
+              </li>
+              <li>Cold-bent casing to speed up and reduce the development.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project row jbetween acenter">
+          <div class="project_img full_img row jstart astart">
+            <img
+              src="../src/imgs/project_03/img_03.png"
+              alt="Areas that I had specifically worked on or led"
+            />
+          </div>
+          <div class="project_text column astart jstart">
+            <p class="project_title">
+              Areas that I had specifically worked on or led
+            </p>
+            <ul>
+              <li>Product Owner.</li>
+              <li>Developed main embedded code in C.</li>
+              <li>Designed the BLDC motor controller board.</li>
+              <li>
+                Represented the company during ventilatory and UI validation
+                tests.
+              </li>
+              <li>Designed production and testing equipment.</li>
+              <li>Created user and technical manuals.</li>
+              <li>
+                Performed comparative performance analysis against competitors.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="column jaround acenter">
+      <p>[ ffschneider.consultant@gmail.com] [ +55 27 99910-1403 ]</p>
+      <a
+        class="social_icon"
+        href="https://www.linkedin.com/in/felipe-bas/"
+        target="_blank"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+    </footer>
+    <script src="../src/scripts/carousel.js"></script>
+  </body>
+</html>

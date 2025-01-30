@@ -20,6 +20,10 @@
   justify-content: flex-end !important;
 }
 
+.reverse > .project_img a {
+  justify-content: flex-end !important;
+}
+
 .colored_bg {
   background-color: #e7f5fd !important;
 }

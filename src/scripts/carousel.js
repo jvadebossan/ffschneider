@@ -13,9 +13,17 @@ $(document).ready(function () {
     centerPadding: "30px",
     responsive: [
       {
-        breakpoint: 500,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "0px",
+          arrows: false,
         },
       },
     ],

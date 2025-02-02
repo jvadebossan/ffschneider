@@ -128,6 +128,7 @@
   display: flex !important;
   border: 2px solid var(--primary);
   border-radius: 9px;
+  padding: 0px 20px;
 }
 
 .project_c_img {
@@ -198,4 +199,69 @@
   font-size: 40px;
   padding: 0px 20px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+/* MOBILE */
+@media (min-width: 200px) and (max-width: 900px) {
+  .banner_img {
+    width: 0%;
+    display: none;
+  }
+
+  .banner_text {
+    width: 100%;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  * {
+    --title: 48px !important;
+    --subtitle: 20px;
+    --text: 16px;
+    --small-text: 12px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .banner {
+    padding: 0px 20px;
+  }
+
+  /* SKILLS */
+  .skill_card {
+    padding: 0px 20px;
+  }
+
+  .skill_img {
+    width: 50%;
+  }
+
+  .skill_card {
+    margin-bottom: 40px;
+  }
+
+  /* PROJECT CAROUSEL */
+  .project_c_card {
+    max-width: 320px;
+  }
+
+  .slick-next {
+    right: 15px;
+  }
+
+  .slick-prev {
+    left: 15px;
+  }
+
+  .slick-dots {
+    bottom: -30px;
+  }
 }

@@ -58,13 +58,38 @@
 .skill_card {
   min-width: 300px;
   max-width: 400px;
-  min-height: 650px;
+  min-height: 520px;
   width: auto;
   height: auto;
   background-color: var(--white);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 9px;
   margin-bottom: 100px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in;
+}
+
+.moreText {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in;
+}
+
+.expanded .moreText {
+  max-height: 200px; /* Ajuste conforme necessário */
+}
+
+.toggleBtn {
+  padding: 10px 20px;
+  font-size: var(--small);
+  color: var(--white);
+  background-color: var(--primary);
+  transition: 0.2s ease-in;
+  outline: transparent;
+  border: 0px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-top: -10px;
 }
 
 .skill_img,

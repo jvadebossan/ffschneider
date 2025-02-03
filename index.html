@@ -168,12 +168,15 @@
               <b>chronic wounds, respiratory systems</b>, and
               <b>endoscopic rhinoscopes</b>.
             </p>
-            <p class="skill_desc">
+            <p class="skill_desc moreText">
               Throughout my career, I have taken on diverse roles, including
               Electrical Engineer, Customer Service and Management, Product
               Owner, and CTO, gaining a comprehensive perspective on the medical
               device development lifecycle.
             </p>
+            <button class="toggleBtn" onclick="toggleText(this)">
+              Read more
+            </button>
           </div>
           <!-- SKILL CARD END -->
 
@@ -191,11 +194,14 @@
               your hardware, firmware, and software to minimize failure risks
               while maintaining cost efficiency.
             </p>
-            <p class="skill_desc">
+            <p class="skill_desc moreText">
               When needed, we can also conduct pre-compliance EMC or safety
               tests in certified laboratories, offering valuable insights at a
               relatively low cost to ensure your project stays on track.
             </p>
+            <button class="toggleBtn" onclick="toggleText(this)">
+              Read more
+            </button>
           </div>
 
           <div class="skill_card column jaround acenter">
@@ -212,13 +218,16 @@
               such as ISO 13495, I can help navigate complex regulatory
               landscapes.
             </p>
-            <p class="skill_desc">
+            <p class="skill_desc moreText">
               I understand that no development holds value unless the device
               reaches the market. I can identify applicable regulatory
               requirements, present them clearly and concisely, and collaborate
               with you to develop the necessary documentation for your project's
               regulatory approval.
             </p>
+            <button class="toggleBtn" onclick="toggleText(this)">
+              Read more
+            </button>
           </div>
 
           <div class="skill_card column jaround acenter">
@@ -235,11 +244,14 @@
               devices, often at a fraction of the cost typically found in the
               USA.
             </p>
-            <p class="skill_desc">
+            <p class="skill_desc moreText">
               I have personally experienced this advantage, obtaining laboratory
               results at just <b>15%</b> of the cost of a U.S. lab while
               successfully securing FDA approval for our medical device.
             </p>
+            <button class="toggleBtn" onclick="toggleText(this)">
+              Read more
+            </button>
           </div>
 
           <div class="skill_card column jaround acenter">
@@ -254,11 +266,14 @@
               hypotheses and advance key steps in your development process of
               medical and non-medical devices.
             </p>
-            <p class="skill_desc">
+            <p class="skill_desc moreText">
               If a specific task is beyond my scope or not the best fit for me,
               I can assemble a team of skilled specialists to address your
               challenge effectively.
             </p>
+            <button class="toggleBtn" onclick="toggleText(this)">
+              Read more
+            </button>
           </div>
         </div>
       </section>
@@ -416,5 +431,16 @@
     </footer>
     <script src="./src/scripts/carousel.js"></script>
     <script src="./src/scripts/menu.js"></script>
+
+    <!-- READ MORE FOR SKILL CARDS -->
+    <script>
+      function toggleText(button) {
+        const card = button.closest(".skill_card");
+        card.classList.toggle("expanded");
+        button.textContent = card.classList.contains("expanded")
+          ? "Read Less"
+          : "Read more";
+      }
+    </script>
   </body>
 </html>
